@@ -8,4 +8,4 @@ Allow: /
 # Disallow: /private/
 
 # Sitemap location
-Sitemap: https://bejogym.id/sitemap.xml
+Sitemap: https://bejo-gym.vercel.app/sitemap.xml
