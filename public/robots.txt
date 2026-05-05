@@ -1,0 +1,11 @@
+# Robots.txt for Bejo Gym
+
+User-agent: *
+Allow: /
+
+# Disallow specific paths if needed
+# Disallow: /api/
+# Disallow: /private/
+
+# Sitemap location
+Sitemap: https://bejogym.id/sitemap.xml
