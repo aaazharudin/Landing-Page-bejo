@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://bejogym.id",
+    url: "https://bejo-gym.vercel.app",
     title: "Bejo Gym - Gym Premium Sleman Yogyakarta | Personal Trainer & Program Fitness",
     description:
       "Gym premium di Sleman, Yogyakarta dengan personal trainer bersertifikat. Program penurunan berat badan, pembentukan otot, dan fitness terukur. Hitung BMI, lihat transformasi member, dan kunjungi lokasi kami.",
@@ -76,13 +76,12 @@ export const metadata: Metadata = {
 
   // Verification
   verification: {
-    // google: "your-google-verification-code",
-    // yandex: "your-yandex-verification-code",
+    google: "OH6LB31AANm0-AURcCVRskmea14gkrZY83xTmVU-Og4",
   },
 
   // Alternates
   alternates: {
-    canonical: "https://bejogym.id",
+    canonical: "https://bejo-gym.vercel.app",
   },
 };
 
@@ -97,7 +96,7 @@ export default function RootLayout({
     "@type": "SportsActivityLocation",
     name: "Bejo Gym",
     description: "Gym premium di Sleman, Yogyakarta dengan personal trainer bersertifikat. Program penurunan berat badan, pembentukan otot, BMI calculator, dan fasilitas lengkap.",
-    url: "https://bejogym.id",
+    url: "https://bejo-gym.vercel.app",
     telephone: "+62-812-3456-7890",
     address: {
       "@type": "PostalAddress",
@@ -142,6 +141,7 @@ export default function RootLayout({
   return (
     <html lang="id">
       <head>
+        <meta name="google-site-verification" content="OH6LB31AANm0-AURcCVRskmea14gkrZY83xTmVU-Og4" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
