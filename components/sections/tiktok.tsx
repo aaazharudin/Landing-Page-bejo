@@ -2,19 +2,19 @@ export function TikTok() {
   const videos = [
     {
       id: 1,
-      thumbnail: "/api/placeholder/270/480",
+      thumbnail: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=540&q=80",
       views: "45.2K",
       title: "Routine latihan pemula",
     },
     {
       id: 2,
-      thumbnail: "/api/placeholder/270/480",
+      thumbnail: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=540&q=80",
       views: "128K",
       title: "Tips burning fat cepat",
     },
     {
       id: 3,
-      thumbnail: "/api/placeholder/270/480",
+      thumbnail: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=540&q=80",
       views: "89.5K",
       title: "Form correction: squat",
     },
@@ -43,13 +43,12 @@ export function TikTok() {
               rel="noopener noreferrer"
               className="group relative aspect-[9/16] rounded-3xl overflow-hidden bg-zinc-900 hover:ring-2 hover:ring-white/20 transition-all duration-300"
             >
-              {/* Placeholder for thumbnail */}
-              <div className="absolute inset-0 bg-zinc-800 flex items-center justify-center">
-                <svg className="w-16 h-16 text-zinc-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
+              {/* TikTok thumbnail */}
+              <img
+                src={video.thumbnail}
+                alt={video.title}
+                className="absolute inset-0 w-full h-full object-cover"
+              />
 
               {/* Gradient overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
