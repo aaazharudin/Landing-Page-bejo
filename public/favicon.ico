@@ -1,0 +1,19 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#1a1a1a"/>
+
+  <!-- Left weight plate -->
+  <rect x="2" y="10" width="6" height="12" rx="1.5" fill="#D4AF37"/>
+
+  <!-- Right weight plate -->
+  <rect x="24" y="10" width="6" height="12" rx="1.5" fill="#D4AF37"/>
+
+  <!-- Grip/handle -->
+  <rect x="8" y="14" width="16" height="4" rx="2" fill="#ffffff"/>
+
+  <!-- Grip lines -->
+  <line x1="11" y1="14" x2="11" y2="18" stroke="#1a1a1a" stroke-width="0.5" opacity="0.3"/>
+  <line x1="14" y1="14" x2="14" y2="18" stroke="#1a1a1a" stroke-width="0.5" opacity="0.3"/>
+  <line x1="17" y1="14" x2="17" y2="18" stroke="#1a1a1a" stroke-width="0.5" opacity="0.3"/>
+  <line x1="20" y1="14" x2="20" y2="18" stroke="#1a1a1a" stroke-width="0.5" opacity="0.3"/>
+</svg>
