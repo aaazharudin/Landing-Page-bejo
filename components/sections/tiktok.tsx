@@ -4,19 +4,22 @@ export function TikTok() {
       id: 1,
       thumbnail: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=540&q=80",
       views: "45.2K",
-      title: "Routine latihan pemula",
+      title: "Video latihan Bejo Sport Center",
+      url: "https://www.tiktok.com/@bejosportcenter/video/7629951819397057799",
     },
     {
       id: 2,
       thumbnail: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=540&q=80",
       views: "128K",
-      title: "Tips burning fat cepat",
+      title: "Tips fitness dari Bejo Sport Center",
+      url: "https://www.tiktok.com/@bejosportcenter/video/7319719963118357765",
     },
     {
       id: 3,
       thumbnail: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=540&q=80",
       views: "89.5K",
-      title: "Form correction: squat",
+      title: "Workout routine Bejo Sport Center",
+      url: "https://www.tiktok.com/@bejosportcenter/video/7497190963799002375",
     },
   ];
 
@@ -30,7 +33,7 @@ export function TikTok() {
             Video Tips & Tutorial
           </h2>
           <p className="text-zinc-400 text-lg font-light">
-            @bejogym — follow untuk tips fitness harian
+            @bejosportcenter — follow untuk tips fitness harian
           </p>
         </div>
 
@@ -38,7 +41,7 @@ export function TikTok() {
           {videos.map((video) => (
             <a
               key={video.id}
-              href="https://tiktok.com/@bejogym"
+              href={video.url}
               target="_blank"
               rel="noopener noreferrer"
               className="group relative aspect-[9/16] rounded-3xl overflow-hidden bg-zinc-900 hover:ring-2 hover:ring-white/20 transition-all duration-300"
@@ -80,7 +83,7 @@ export function TikTok() {
 
         <div className="text-center mt-12">
           <a
-            href="https://tiktok.com/@bejogym"
+            href="https://www.tiktok.com/@bejosportcenter"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-white hover:text-zinc-300 transition-colors text-sm font-medium"

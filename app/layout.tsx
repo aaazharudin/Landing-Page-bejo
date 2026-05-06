@@ -4,8 +4,8 @@ import "./globals.css";
 export const metadata: Metadata = {
   // Basic metadata
   title: {
-    default: "Bejo Gym - Gym Premium Sleman Yogyakarta | Personal Trainer & Program Fitness",
-    template: "%s | Bejo Gym",
+    default: "Bejo Sport Center - Gym Premium Sleman Yogyakarta | Personal Trainer & Program Fitness",
+    template: "%s | Bejo Sport Center",
   },
   description:
     "Gym premium di Sleman, Yogyakarta dengan personal trainer bersertifikat. Program penurunan berat badan, pembentukan otot, dan fitness terukur. Hitung BMI, lihat transformasi member, dan kunjungi lokasi kami.",
@@ -29,25 +29,25 @@ export const metadata: Metadata = {
     "gym dengan personal trainer",
     "transformasi tubuh",
   ].join(", "),
-  authors: [{ name: "Bejo Gym" }],
-  creator: "Bejo Gym",
-  publisher: "Bejo Gym",
+  authors: [{ name: "Bejo Sport Center" }],
+  creator: "Bejo Sport Center",
+  publisher: "Bejo Sport Center",
 
   // Open Graph / Facebook
   openGraph: {
     type: "website",
     locale: "id_ID",
     url: "https://bejo-gym.vercel.app",
-    title: "Bejo Gym - Gym Premium Sleman Yogyakarta | Personal Trainer & Program Fitness",
+    title: "Bejo Sport Center - Gym Premium Sleman Yogyakarta | Personal Trainer & Program Fitness",
     description:
       "Gym premium di Sleman, Yogyakarta dengan personal trainer bersertifikat. Program penurunan berat badan, pembentukan otot, dan fitness terukur. Hitung BMI, lihat transformasi member, dan kunjungi lokasi kami.",
-    siteName: "Bejo Gym",
+    siteName: "Bejo Sport Center",
     images: [
       {
         url: "https://bejogym.id/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Bejo Gym - Gym Premium Sleman Yogyakarta",
+        alt: "Bejo Sport Center - Gym Premium Sleman Yogyakarta",
       },
     ],
   },
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   // Twitter
   twitter: {
     card: "summary_large_image",
-    title: "Bejo Gym - Gym Premium Sleman Yogyakarta | Personal Trainer & Program Fitness",
+    title: "Bejo Sport Center - Gym Premium Sleman Yogyakarta | Personal Trainer & Program Fitness",
     description:
       "Gym premium di Sleman, Yogyakarta dengan personal trainer bersertifikat. Program penurunan berat badan, pembentukan otot, dan fitness terukur.",
     images: ["https://bejogym.id/twitter-image.jpg"],
@@ -83,6 +83,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://bejo-gym.vercel.app",
   },
+
+  // Icons
+  icons: {
+    icon: "/icon.svg",
+    apple: "/apple-touch-icon.svg",
+  },
 };
 
 export default function RootLayout({
@@ -94,10 +100,10 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "SportsActivityLocation",
-    name: "Bejo Gym",
+    name: "Bejo Sport Center",
     description: "Gym premium di Sleman, Yogyakarta dengan personal trainer bersertifikat. Program penurunan berat badan, pembentukan otot, BMI calculator, dan fasilitas lengkap.",
     url: "https://bejo-gym.vercel.app",
-    telephone: "+62-812-3456-7890",
+    telephone: "+62-895-1245-7250",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Jl. Magelang Km. 5,5",
@@ -133,8 +139,8 @@ export default function RootLayout({
       geoRadius: "50000",
     },
     sameAs: [
-      "https://instagram.com/bejogym",
-      "https://tiktok.com/@bejogym",
+      "https://instagram.com/bejosport_",
+      "https://tiktok.com/@bejosportcenter",
     ],
   };
 

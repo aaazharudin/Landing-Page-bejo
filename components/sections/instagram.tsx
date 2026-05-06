@@ -18,7 +18,7 @@ export function Instagram() {
             Ikuti Kami di Instagram
           </h2>
           <p className="text-zinc-400 text-lg font-light">
-            @bejogym — inspirasi harian, tips, dan transformasi member
+            @bejosport_ — inspirasi harian, tips, dan transformasi member
           </p>
         </div>
 
@@ -26,7 +26,7 @@ export function Instagram() {
           {posts.map((post) => (
             <a
               key={post.id}
-              href="https://instagram.com/bejogym"
+              href="https://instagram.com/bejosport_"
               target="_blank"
               rel="noopener noreferrer"
               className="group aspect-square relative overflow-hidden rounded-2xl bg-zinc-900 hover:ring-2 hover:ring-white/20 transition-all duration-300"
@@ -53,7 +53,7 @@ export function Instagram() {
 
         <div className="text-center mt-12">
           <a
-            href="https://instagram.com/bejogym"
+            href="https://instagram.com/bejosport_"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-white hover:text-zinc-300 transition-colors text-sm font-medium"

@@ -1,7 +1,7 @@
 import { Hero } from "@/components/sections/hero";
 import { ValueProposition } from "@/components/sections/value-proposition";
 import { Programs } from "@/components/sections/programs";
-import { Pricing } from "@/components/sections/pricing";
+import { PricingNew } from "@/components/sections/pricing-new";
 import dynamic from "next/dynamic";
 
 // Lazy load heavy components below the fold
@@ -101,7 +101,7 @@ export default function Home() {
       {/* Below the fold - lazy load for performance */}
       <TransformationLazy />
       <TestimonialsLazy />
-      <Pricing />
+      <PricingNew />
       <InstagramLazy />
       <TikTokLazy />
       <BMICalculatorLazy />

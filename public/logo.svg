@@ -1,0 +1,34 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left weight plate (outer) -->
+  <rect x="20" y="65" width="30" height="70" rx="6" fill="url(#goldGradient)"/>
+
+  <!-- Left weight plate (inner detail) -->
+  <rect x="28" y="75" width="14" height="50" rx="3" fill="#1a1a1a" opacity="0.3"/>
+
+  <!-- Right weight plate (outer) -->
+  <rect x="150" y="65" width="30" height="70" rx="6" fill="url(#goldGradient)"/>
+
+  <!-- Right weight plate (inner detail) -->
+  <rect x="158" y="75" width="14" height="50" rx="3" fill="#1a1a1a" opacity="0.3"/>
+
+  <!-- Grip/handle -->
+  <rect x="50" y="85" width="100" height="30" rx="15" fill="#ffffff"/>
+
+  <!-- Grip texture lines -->
+  <line x1="62" y1="85" x2="62" y2="115" stroke="#1a1a1a" stroke-width="2" opacity="0.2"/>
+  <line x1="74" y1="85" x2="74" y2="115" stroke="#1a1a1a" stroke-width="2" opacity="0.2"/>
+  <line x1="86" y1="85" x2="86" y2="115" stroke="#1a1a1a" stroke-width="2" opacity="0.2"/>
+  <line x1="98" y1="85" x2="98" y2="115" stroke="#1a1a1a" stroke-width="2" opacity="0.2"/>
+  <line x1="110" y1="85" x2="110" y2="115" stroke="#1a1a1a" stroke-width="2" opacity="0.2"/>
+  <line x1="122" y1="85" x2="122" y2="115" stroke="#1a1a1a" stroke-width="2" opacity="0.2"/>
+  <line x1="134" y1="85" x2="134" y2="115" stroke="#1a1a1a" stroke-width="2" opacity="0.2"/>
+
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#F4D03F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4AF37;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

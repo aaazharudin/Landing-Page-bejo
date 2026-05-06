@@ -34,7 +34,7 @@ export function Location() {
           {/* Info */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-white mb-4">Bejo Gym</h3>
+              <h3 className="text-2xl font-bold text-white mb-4">Bejo Sport Center</h3>
               <p className="text-zinc-400 leading-relaxed">
                 Gym premium dengan fasilitas lengkap dan personal trainer bersertifikat.
                 <br />
@@ -76,7 +76,7 @@ export function Location() {
                 </div>
                 <div>
                   <h4 className="text-white font-medium mb-1">Kontak</h4>
-                  <p className="text-zinc-400">WhatsApp: +62 812-3456-7890<br />Email: hello@bejogym.id</p>
+                  <p className="text-zinc-400">WhatsApp: +62 895-1245-7250 / +62 812-1658-0853<br />Email: hello@bejosport.id</p>
                 </div>
               </div>
             </div>

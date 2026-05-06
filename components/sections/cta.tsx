@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { whatsappLinks } from "@/lib/whatsapp";
 
 export function CTA() {
   return (
@@ -27,7 +28,9 @@ export function CTA() {
             Mulai Sekarang
           </Link>
           <Link
-            href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20konsultasi%20gratis"
+            href={whatsappLinks.personalTrainerConsultation}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-3 px-14 py-4 text-base font-semibold rounded-xl bg-transparent text-white border border-zinc-700 hover:border-zinc-500 hover:bg-white/5 transition-all duration-300"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
