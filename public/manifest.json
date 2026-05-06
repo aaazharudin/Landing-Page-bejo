@@ -1,0 +1,17 @@
+{
+  "name": "Bejo Sport Center",
+  "short_name": "Bejo Sport",
+  "description": "Gym premium di Sleman, Yogyakarta dengan personal trainer bersertifikat",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#D4AF37",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

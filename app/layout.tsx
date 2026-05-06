@@ -87,11 +87,12 @@ export const metadata: Metadata = {
   // Icons
   icons: {
     icon: [
-      { url: "/icon.svg" },
-      { url: "/favicon.ico" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "32x32" },
     ],
     apple: "/apple-touch-icon.svg",
   },
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
@@ -151,6 +152,11 @@ export default function RootLayout({
     <html lang="id">
       <head>
         <meta name="google-site-verification" content="OH6LB31AANm0-AURcCVRskmea14gkrZY83xTmVU-Og4" />
+        <link rel="icon" href="/favicon.ico" sizes="32x32" />
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.svg" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#D4AF37" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
