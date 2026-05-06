@@ -49,8 +49,11 @@ export function CTA() {
         </div>
 
         {/* Urgency Text */}
-        <p className="text-amber-500 text-sm font-semibold mb-8">
+        <p className="text-amber-500 text-sm font-semibold mb-4">
           ⚠️ Promo Rp189K berakhir akhir bulan ini
+        </p>
+        <p className="text-amber-500 text-sm font-semibold mb-8">
+          ⚠️ Harga bisa berubah kapan saja
         </p>
 
         {/* Trust note */}

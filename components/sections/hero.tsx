@@ -71,8 +71,11 @@ export function Hero() {
         </div>
 
         {/* Urgency Text */}
-        <p className="text-amber-500 text-sm font-medium mb-12">
+        <p className="text-amber-500 text-sm font-medium mb-2">
           ⏳ Slot member terbatas setiap bulan
+        </p>
+        <p className="text-amber-500 text-sm font-medium mb-12">
+          ⚠️ Harga bisa berubah kapan saja
         </p>
 
         {/* Trust indicators */}

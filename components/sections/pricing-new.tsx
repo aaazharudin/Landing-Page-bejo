@@ -24,15 +24,16 @@ export function PricingNew() {
 
         {/* Pricing Cards */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          {/* Card 1: Membership */}
+          {/* Card 1: Starter Plan */}
           <div className="relative bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/10 transition-all duration-300">
             <div className="mb-4">
-              <h3 className="text-xl font-bold text-white mb-2">Membership</h3>
+              <h3 className="text-xl font-bold text-white mb-2">Starter Plan</h3>
               <div className="flex items-baseline gap-2">
                 <span className="text-3xl font-bold text-white">Rp189K</span>
                 <span className="text-zinc-500">/ bulan</span>
               </div>
               <p className="text-zinc-600 line-through text-sm">Rp219K</p>
+              <p className="text-zinc-400 text-xs mt-2">Cocok untuk pemula yang ingin mulai fitness</p>
             </div>
 
             <div className="inline-block px-3 py-1 bg-amber-500/20 text-amber-400 text-xs font-semibold rounded-full mb-4">
@@ -70,7 +71,7 @@ export function PricingNew() {
             </Link>
           </div>
 
-          {/* Card 2: 3 Month Plan - MOST POPULAR */}
+          {/* Card 2: Transformation Plan - MOST POPULAR */}
           <div className="relative bg-gradient-to-b from-amber-500/10 to-zinc-900 border-2 border-amber-500/50 rounded-2xl p-6 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20 transition-all duration-300 lg:scale-105 lg:z-10">
             {/* Popular Badge */}
             <div className="absolute -top-4 left-1/2 -translate-x-1/2">
@@ -80,11 +81,12 @@ export function PricingNew() {
             </div>
 
             <div className="mb-4 mt-2">
-              <h3 className="text-xl font-bold text-white mb-2">3 Bulan</h3>
+              <h3 className="text-xl font-bold text-white mb-2">Transformation Plan</h3>
               <div className="flex items-baseline gap-2">
                 <span className="text-4xl font-bold text-amber-400">Rp420K</span>
               </div>
               <p className="text-zinc-600 line-through text-sm">Rp480K</p>
+              <p className="text-zinc-400 text-xs mt-2">3 bulan untuk hasil transformasi nyata</p>
             </div>
 
             <div className="inline-block px-3 py-1 bg-emerald-500/20 text-emerald-400 text-xs font-semibold rounded-full mb-4">
@@ -122,10 +124,10 @@ export function PricingNew() {
             </Link>
           </div>
 
-          {/* Card 3: Personal Training */}
+          {/* Card 3: Personal Coaching */}
           <div className="relative bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/10 transition-all duration-300">
             <div className="mb-4">
-              <h3 className="text-xl font-bold text-white mb-2">Personal Training</h3>
+              <h3 className="text-xl font-bold text-white mb-2">Personal Coaching</h3>
               <div className="flex items-baseline gap-2">
                 <span className="text-3xl font-bold text-white">Rp94K</span>
                 <span className="text-zinc-500">/ sesi</span>
@@ -134,6 +136,7 @@ export function PricingNew() {
                 <p className="text-zinc-400 text-xs">• 1 orang: <span className="text-white font-semibold">Rp940K</span> (10 sesi)</p>
                 <p className="text-zinc-400 text-xs">• 2 orang: <span className="text-white font-semibold">Rp1.300K</span> (10 sesi)</p>
               </div>
+              <p className="text-zinc-400 text-xs mt-2">Panduan personal trainer untuk hasil maksimal</p>
             </div>
 
             <div className="inline-block px-3 py-1 bg-blue-500/20 text-blue-400 text-xs font-semibold rounded-full mb-4">
@@ -171,15 +174,16 @@ export function PricingNew() {
             </Link>
           </div>
 
-          {/* Card 4: Day Pass */}
+          {/* Card 4: Trial Pass */}
           <div className="relative bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/10 transition-all duration-300">
             <div className="mb-4">
-              <h3 className="text-xl font-bold text-white mb-2">Day Pass</h3>
+              <h3 className="text-xl font-bold text-white mb-2">Trial Pass</h3>
               <div className="flex items-baseline gap-2">
                 <span className="text-3xl font-bold text-white">Rp30K</span>
                 <span className="text-zinc-500">/ visit</span>
               </div>
               <p className="text-zinc-400 text-xs mt-1">Coba dulu tanpa komitmen</p>
+              <p className="text-zinc-400 text-xs mt-2">Cocok untuk yang ingin coba fasilitas dulu</p>
             </div>
 
             <div className="inline-block px-3 py-1 bg-zinc-700/50 text-zinc-300 text-xs font-semibold rounded-full mb-4">
