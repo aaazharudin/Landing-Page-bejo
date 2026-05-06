@@ -29,13 +29,13 @@ const TestimonialsLazy = dynamic(() => import("@/components/sections/testimonial
   ),
 });
 
-const InstagramLazy = dynamic(() => import("@/components/sections/instagram").then(m => ({ default: m.Instagram })), {
+const FacilitiesLazy = dynamic(() => import("@/components/sections/facilities").then(m => ({ default: m.Facilities })), {
   loading: () => (
     <section className="py-32 bg-background">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
           {[1, 2, 3, 4, 5, 6].map((i) => (
-            <div key={i} className="aspect-square bg-zinc-900/50 rounded-2xl animate-pulse" />
+            <div key={i} className="aspect-[4/3] bg-zinc-900/50 rounded-2xl animate-pulse" />
           ))}
         </div>
       </div>
@@ -43,14 +43,13 @@ const InstagramLazy = dynamic(() => import("@/components/sections/instagram").th
   ),
 });
 
-const TikTokLazy = dynamic(() => import("@/components/sections/tiktok").then(m => ({ default: m.TikTok })), {
+const SocialLinksLazy = dynamic(() => import("@/components/sections/social-links").then(m => ({ default: m.SocialLinks })), {
   loading: () => (
     <section className="py-32 bg-zinc-950">
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-          {[1, 2, 3].map((i) => (
-            <div key={i} className="aspect-[9/16] bg-zinc-900/50 rounded-3xl animate-pulse" />
-          ))}
+      <div className="max-w-4xl mx-auto px-6">
+        <div className="grid md:grid-cols-2 gap-6">
+          <div className="h-64 bg-zinc-900/50 rounded-3xl animate-pulse" />
+          <div className="h-64 bg-zinc-900/50 rounded-3xl animate-pulse" />
         </div>
       </div>
     </section>
@@ -102,8 +101,8 @@ export default function Home() {
       <TransformationLazy />
       <TestimonialsLazy />
       <PricingNew />
-      <InstagramLazy />
-      <TikTokLazy />
+      <FacilitiesLazy />
+      <SocialLinksLazy />
       <BMICalculatorLazy />
       <LocationLazy />
       <CTALazy />
